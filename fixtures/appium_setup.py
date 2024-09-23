@@ -36,8 +36,7 @@ def appium_server():
 
 
 @pytest.fixture()
-# def appium_driver(appium_server):
-def appium_driver():
+def appium_driver(appium_server):
     """
     Fixture to create and tear down an Appium driver instance.
 
