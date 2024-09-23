@@ -1,0 +1,2 @@
+from fixtures.appium_setup import appium_server, appium_driver
+from fixtures.file_fixtures import clean_temp_screenshots
